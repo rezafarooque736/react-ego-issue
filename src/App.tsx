@@ -90,6 +90,9 @@ function App() {
 
   return (
     <div className="container">
+      <h2 className="main-heading">
+        Select all you want to hold on to in your life
+      </h2>
       <ul className="grid">
         {items.map((item) => (
           <li
